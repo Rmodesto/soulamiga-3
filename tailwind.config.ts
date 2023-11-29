@@ -9,10 +9,31 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+       
       },
+      screens: {
+        xs: '375px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        xxl: '1536px',
+      },
+      colors: {
+        green: {
+          900: '#789395',
+        },
+        gold: {
+          900: '#E3DDB8',
+        },
+        black: {
+          900: '#303940',
+        },
+        white: {
+          900: '#fff',
+        },
+      },
+
     },
   },
   plugins: [],
